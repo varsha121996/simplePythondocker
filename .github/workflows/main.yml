@@ -29,9 +29,9 @@ jobs:
           echo "Add your test commands here, e.g., pytest"
           # pytest tests/
 
-      - name: Build Docker image
-        run: |
-          docker build -t simple-python-app .
+    #  - name: Build Docker image
+    #    run: |
+     #     docker build -t simple-python-app .
 
       # Optional: Push to Docker Hub or GHCR
       # - name: Log in to Docker Hub
